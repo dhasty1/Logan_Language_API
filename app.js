@@ -7,14 +7,15 @@ const { body, validationResult } = require('express-validator');
 const { TextAnalyticsClient, AzureKeyCredential } = require('@azure/ai-text-analytics');
 const { TextAnalysisClient } = require("@azure/ai-language-text");
 const TextDocumentInput = require('@azure/ai-text-analytics')
+require('dotenv').config();
 
 // Initialize express app
 const app = express();
 const port = 3000;
 
 // Azure AI Language config values
-const key = 'd8e0e3bacae741c598bb6cdc146ba477';
-const endpoint = 'https://loganlanguageinstance.cognitiveservices.azure.com/';
+const key = process.env.API_KEY;
+const endpoint = process.env.API_ENDPOINT;
 
 // Serve Swagger UI
 app.use('/docs', swaggerUi.serve, swaggerUi.setup(specs, { explorer: true }));

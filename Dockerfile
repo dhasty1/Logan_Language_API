@@ -21,6 +21,10 @@ RUN npm install -g pm2
 # Expose the port
 EXPOSE 3000
 
+# Set environment variables from .env file
+ENV NODE_ENV=production
+COPY .env .env
+
 # Start the app with PM2
 CMD ["pm2-runtime", "app.js", "--watch"]
 
