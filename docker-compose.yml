@@ -5,7 +5,6 @@ services:
     image: my-image
     ports:
       - "3000:3000"
-    environment:
-      - API_KEY=your-actual-api-key
-      - API_ENDPOINT=your-actual-endpoint
+    env_file:
+      - .env
     restart: always
