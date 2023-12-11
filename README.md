@@ -10,7 +10,7 @@ This API leverages Microsoft's Azure AI Language API to analyze sentiments, reco
 
 ## Getting Started
 
-If you simply wish to interact with this API, please visit [our Swagger site](http://104.131.185.166:3000/docs)/. If you wish to clone this project locally and refactor to make it your own, please see the prerequisites and installation instructions below.
+If you simply wish to interact with this API, please visit [our Swagger site](http://104.131.185.166:3000/docs/). If you wish to clone this project locally and refactor to make it your own, please see the prerequisites and installation instructions below.
 
 ### Prerequisites
 
