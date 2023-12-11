@@ -22,6 +22,8 @@ If you simply wish to interact with this API, please visit `http://104.131.185.1
 
 ### Installation
 
+[](https://media.giphy.com/media/3o6Zt34440romOQWo8/giphy.gif)
+
 Navigate to the directory of your choosing and clone the repo.
 
 ```bash
