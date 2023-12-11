@@ -36,7 +36,7 @@ Once cloned, install all required dependencies.
 npm install
 ```
 
-You now have a local instance set you and can begin making edits. To start the server, you'll need to change your host path. Within `swagger.js`, change the `host` to `localhost:3000`. 
+You now have a local instance set up and can begin making edits. To start the server, you'll need to change your host path. Within `swagger.js`, change the `host` to `localhost:3000`. 
 
 This project is Dockerized, enabling its use in any environment. Ensure you have [Docker](https://docs.docker.com/get-docker/) installed and build the container using
 
