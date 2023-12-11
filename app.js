@@ -219,8 +219,19 @@ app.post('/analyzeSentiment', [postValidation, handleValidationErrors], async (r
  *                 type: string
  *               text:
  *                 type: string
- *               language:
- *                 type: string
+ *               entities:
+ *                 type: array
+ *                 items:
+ *                   type: object
+ *                   properties:
+ *                     text:
+ *                       type: string
+ *                     category:
+ *                       type: string
+ *                     subCategory:
+ *                       type: string
+ *                     confidenceScore:
+ *                       type: number 
  *       500:
  *         description: Internal Server Error
  *       404:
