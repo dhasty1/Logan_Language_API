@@ -1,6 +1,6 @@
 # Logan's Language API - [Wiki Docs](https://github.com/dhasty1/Logan_Language_API/wiki)
 
-This API leverages Microsoft's Azure AI Language API to analyze sentiments, recognize named entities, and detect languages of submitted texts. This README will provide you with an overview of local development and deployment and link to supporting documentation simplifying the usage of this service.
+This API leverages Microsoft's Azure AI Language API to analyze sentiments, recognize named entities, and detect languages of submitted texts. This README will provide you with an overview of local development and link to supporting documentation simplifying the usage of this service.
 
 ## Table of Contents
 - [Getting Started](#getting-started)
